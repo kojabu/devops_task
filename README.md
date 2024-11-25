@@ -82,12 +82,41 @@
    ```
 
 6. Откройте браузер и перейдите на `http://localhost`. Вы должны увидеть вашу страницу.
+## Настройка Docker-контейнера
 
+Этот репозиторий содержит `Dockerfile` для создания контейнера, который запускает статический веб-сайт с использованием NGINX.
+
+### Требования
+- Установленный Docker
+
+### Шаги для запуска контейнера
+
+1. **Соберите Docker-образ**:
+   ```bash
+   docker build -t my_nginx_image .
+
+    Запустите Docker-контейнер:
+
+docker run -d -p 8080:80 --name my_nginx_container my_nginx_image
+
+    Веб-сайт будет доступен по адресу http://localhost:8080.
+
+Остановите контейнер:
+
+docker stop my_nginx_container
+
+Удалите контейнер:
+
+docker rm my_nginx_container
+
+Опционально: Удалите Docker-образ:
+
+docker rmi my_nginx_image
 ## Контакты
 
 - **Автор**: Abdulla Avdillayev
 - **GitLab**: [https://gitlab.com/kojabu](https://gitlab.com/kojabu)
-```
+
 
 
 
