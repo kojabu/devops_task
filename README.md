@@ -60,13 +60,13 @@
 ## Клонирование репозитория
 
 1. Скопируйте HTTPS-ссылку репозитория:
-   ```
-   https://gitlab.com/kojabu/dev_ops_task.git
-   ```
+   ```bash
+   https://github.com/kojabu/devops_task   
+```
 
 2. Клонируйте репозиторий:
    ```bash
-   git clone https://gitlab.com/kojabu/dev_ops_task.git
+   git clone https://github.com/kojabu/devops_task.git
    ```
 
 3. Перейдите в директорию проекта:
@@ -115,7 +115,7 @@ docker rmi my_nginx_image
 ## Контакты
 
 - **Автор**: Abdulla Avdillayev
-- **GitLab**: [https://gitlab.com/kojabu](https://gitlab.com/kojabu)
+- **GitHub**: [https://github.com/kojabu/devops_task](https://github.com/kojabu/devops_task)
 
 
 
