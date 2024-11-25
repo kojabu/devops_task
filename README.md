@@ -32,7 +32,7 @@
    ```
 3. Запустите Nginx:
    ```bash
-   sudo nginx
+   brew services star nginx
    ```
 
 ## Конфигурация Nginx
